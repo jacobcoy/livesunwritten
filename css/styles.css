@@ -1,0 +1,254 @@
+html {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    background-color: #A6C0C5;
+}
+
+.nav-bar {
+    height: 60px;
+    background-color: #073840;
+}
+
+.nav-bar-title {
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    margin: 0;
+    padding: 0;
+    padding-top: 18px;
+    color: white;
+    font-size: 24px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.header-panel {
+    width: 100%;
+    height: 450px;
+    background-image: url(../img/header.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.header-title {
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 50px;
+    color: #073840;
+    max-width: 80%;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+    text-align: center;
+/*    text-shadow: 1px 2px 3px rgba(0,0,0,0.2);*/
+}
+
+.container {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.spacer {
+    height: 40px;
+}
+
+.gen-title {
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    color: #073840;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.body-text {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    color: #3f494b;
+    margin: 0;
+    line-height: 28px;
+}
+
+.film-half-left {
+    display: inline-block;
+    width: 45%;
+    padding-right: 8px;
+    vertical-align: top;
+    margin-bottom: 20px;
+}
+
+.film-half-right {
+    display: inline-block;
+    width: 45%;
+    padding-left: 8px;
+    vertical-align: top;
+    margin-bottom: 20px;
+}
+
+.film-info-panel {
+    width: 100%;
+    min-height: 210px;
+    background-color: #2b706f;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.film-title {
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #fcd2c9;
+    margin: 0px;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.film-title-body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fcd2c9;
+    margin: 0px;
+    padding-top: 2px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.tickets {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fcd2c9;
+    margin: 0px;
+    padding-top: 2px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.film-body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #fcd2c9;
+    margin: 0px;
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.imitationimg {
+    width: 100%;
+    height: 300px;
+    background-image:url(../img/imitation.jpg);
+    background-size: cover;
+    background-position: center center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.imitationimg p {
+    width: 90%;
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 8px;
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+}
+
+.blackgirlimg {
+    width: 100%;
+    height: 300px;
+    background-image:url(../img/blackgirl.jpg);
+    background-size: cover;
+    background-position: center center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.blackgirlimg p {
+    width: 90%;
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 8px;
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+}
+
+.sleeperimg {
+    width: 100%;
+    height: 300px;
+    background-image:url(../img/thesleeper.jpg);
+    background-size: cover;
+    background-position: center center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.sleeperimg p {
+    width: 90%;
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 8px;
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+}
+
+.princessimg {
+    width: 100%;
+    height: 300px;
+    background-image:url(../img/princess.jpg);
+    background-size: cover;
+    background-position: center center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.princessimg p {
+    width: 90%;
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 8px;
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+}
+
+.motherimg {
+    width: 100%;
+    height: 300px;
+    background-image:url(../img/mother.jpg);
+    background-size: cover;
+    background-position: center center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.motherimg p {
+    width: 90%;
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 8px;
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+}
