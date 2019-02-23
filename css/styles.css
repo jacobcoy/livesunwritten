@@ -5,6 +5,8 @@ html {
 
 body {
     background-color: #A6C0C5;
+    margin: 0px;
+    padding: 0px;
 }
 
 .nav-bar {
@@ -52,6 +54,8 @@ body {
     max-width: 960px;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .spacer {
@@ -290,5 +294,14 @@ body {
     
     .film-info-panel {
         min-height: 150px;
+    }
+    
+    .header-title {
+        font-size: 30px;
+    }
+    
+    .nav-bar-title {
+        font-size: 18px;
+        padding-top: 10px;
     }
 }
