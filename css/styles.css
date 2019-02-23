@@ -68,7 +68,7 @@ body {
 }
 
 .body-text {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-size: 20px;
     color: #3f494b;
     margin: 0;
@@ -111,7 +111,7 @@ body {
 }
 
 .film-title-body {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-size: 16px;
     font-weight: 700;
     color: #fcd2c9;
@@ -122,7 +122,7 @@ body {
 }
 
 .tickets {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-size: 16px;
     font-weight: 700;
     color: #fcd2c9;
@@ -133,7 +133,7 @@ body {
 }
 
 .film-body {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-size: 18px;
     font-weight: 400;
     color: #fcd2c9;
