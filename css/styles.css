@@ -274,3 +274,21 @@ body {
 .footer-social:nth-child(-n+2) {
         padding-right: 14px;
     }
+
+@media only screen and (max-width: 764px) {
+    .film-half-left {
+        width: 100%;
+        display: block;
+        padding-right: 0px
+    }
+    
+    .film-half-right {
+        width: 100%;
+        display: block;
+        padding-left: 0px;
+    }
+    
+    .film-info-panel {
+        min-height: 150px;
+    }
+}
